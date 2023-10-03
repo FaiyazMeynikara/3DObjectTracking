@@ -26,6 +26,7 @@ endif ()
 
 # Used libraries
 find_package(Eigen3 3.3.2 REQUIRED)
+list(APPEND CMAKE_PREFIX_PATH "D:/Work/projects/imaginX/3DObjectTracking/M3T/third_party/glew-2.1.0")
 find_package(GLEW REQUIRED)
 if (UNIX)
     set(OpenGL_GL_PREFERENCE LEGACY)
